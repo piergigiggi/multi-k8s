@@ -21,6 +21,7 @@ before_install:
 script:
   - docker run -e CI=true piergiggisc/react-test npm test
 
+#ciao
 deploy:
   provider: script
   script: bash ./deploy.sh
